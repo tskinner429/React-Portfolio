@@ -1,0 +1,47 @@
+body {
+   padding: 0 3rem;
+}
+
+.contact {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  margin: 5px 0;
+}
+
+form textarea {
+  height: 100px;
+  resize: none;
+}
+
+form button {
+  width: 15%;
+  margin: 5px auto;
+}
+
+.card image {
+  height: 100px;
+  width: 100px;
+}
